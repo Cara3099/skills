@@ -1,0 +1,4 @@
+interface:
+  display_name: "企加品牌视觉"
+  short_description: "按企加视觉规范生成PPT、Word、Excel和HTML文件"
+  default_prompt: "使用企加品牌视觉，将我提供的内容生成正式、合规、可编辑的品牌文件。"

@@ -1,0 +1,30 @@
+{
+  "name": "qijia-brand-visual",
+  "display_name": "企加品牌视觉",
+  "version": "0.2.2",
+  "brand_owner": "广东企加税务师事务所",
+  "author": "Cara3099",
+  "formats": ["docx", "xlsx", "pptx", "html"],
+  "entry": "SKILL.md",
+  "shared_content_schema": "references/content-schema.md",
+  "brand_system": "references/brand-system.md",
+  "generators": {
+    "docx": "scripts/generate_docx.py",
+    "xlsx": "scripts/generate_xlsx.mjs",
+    "pptx": "scripts/generate_pptx.mjs",
+    "html": "scripts/generate_html.py"
+  },
+  "templates": {
+    "training_ppt": "assets/templates/ppt/qijia-formal-training-template.pptx",
+    "formal_word_brief": "assets/templates/word/qijia-formal-brief-template.docx",
+    "policy_excel_tracker": "assets/templates/excel/qijia-policy-tracker-template.xlsx",
+    "brand_html_reference": "assets/templates/html/qijia-brand-system-0.2.html"
+  },
+  "portable_for": ["Codex", "OpenAI Agent", "Claude Code", "Gemini CLI", "other coding agents"],
+  "validation": {
+    "docx": "rendered 6 pages; single-column formal-document flow verified",
+    "xlsx": "3 sheets rendered; formulas inspected; embedded logo verified with office renderer",
+    "pptx": "8 slides rendered and overflow test passed",
+    "html": "single-file responsive and print CSS included"
+  }
+}

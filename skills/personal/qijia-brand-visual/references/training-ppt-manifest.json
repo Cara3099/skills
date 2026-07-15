@@ -1,0 +1,50 @@
+{
+  "template_name": "企加税所正式培训PPT模版",
+  "template_type": "presentation",
+  "version": "1.0.0",
+  "owner_brand": "广东企加税务师事务所",
+  "design_profile": "qijia-formal-training-blue-red-grid",
+  "description": "广东企加税务师事务所正式培训、财税合规、审计监管、政策解读类PPT复用模版。",
+  "files": {
+    "pptx_template": "pptx/企加税所正式培训PPT模版.pptx",
+    "logo": "assets/qijia-logo-transparent.png",
+    "cover_brand_panel": "assets/qijia-cover-brand-panel.png",
+    "preview": "previews/企加税所正式培训PPT模版-预览.png",
+    "style_guide": "docs/STYLE-GUIDE.md",
+    "usage_prompt": "docs/USAGE-PROMPT.md"
+  },
+  "layouts": [
+    "cover",
+    "agenda",
+    "section",
+    "content",
+    "cards",
+    "case",
+    "formula",
+    "table",
+    "speaker",
+    "source"
+  ],
+  "visual_tokens": {
+    "colors": {
+      "navy": "#172A4A",
+      "red": "#CE2A2A",
+      "black": "#111111",
+      "paper": "#F7F5EF",
+      "grid_vertical": "#E4E8F0",
+      "grid_horizontal": "#E8EBF1",
+      "border": "#D4D7DE"
+    },
+    "grid_background": {
+      "type": "small_square_grid",
+      "line_width_px": 0.5
+    },
+    "tone": [
+      "formal",
+      "compliance",
+      "clear",
+      "print-friendly"
+    ]
+  },
+  "recommended_call": "按「企加税所正式培训PPT模版」制作一套关于【主题】的正式培训PPT，沿用小方格底板、页眉Logo、深蓝/正红/黑白灰体系，并将讲稿放入备注页。"
+}
