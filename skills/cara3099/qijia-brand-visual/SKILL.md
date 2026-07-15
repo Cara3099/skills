@@ -26,7 +26,7 @@ description: 为广东企加税务师事务所制作、改版或批量生成统�
 
 ## 目标
 
-把同一份结构化内容稳定渲染为 Word、Excel、PPT 和 HTML，并保持企加视觉系统 0.2 的品牌一致性、正式感、可编辑性和打印清晰度。
+把同一份结构化内容稳定渲染为 Word、Excel、PPT 和 HTML，并保持企加视觉系统 0.3 的品牌一致性、正式感、可编辑性和打印清晰度。
 
 ## 开始前
 
@@ -88,7 +88,6 @@ description: 为广东企加税务师事务所制作、改版或批量生成统�
 - `assets/templates/ppt/qijia-formal-training-template.pptx`：此前确认的完整培训 PPT 模版。
 - `assets/templates/word/qijia-formal-brief-template.docx`：正式简报 Word 模版。
 - `assets/templates/excel/qijia-policy-tracker-template.xlsx`：政策追踪 Excel 模版。
-- `assets/templates/html/qijia-brand-system-0.2.html`：视觉系统 0.2 网页基准，作为历史兼容版本保留。
 - `assets/templates/html/qijia-brand-visual-system-0.3.html`：当前定稿的品牌视觉系统 HTML 模板，采用编辑式品牌图谱布局、原有右侧深蓝品牌图、企加深蓝/正红/纸白体系和放大后的可读文字。
 
 ## 禁止事项
