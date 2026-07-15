@@ -18,8 +18,7 @@
     "training_ppt": "assets/templates/ppt/qijia-formal-training-template.pptx",
     "formal_word_brief": "assets/templates/word/qijia-formal-brief-template.docx",
     "policy_excel_tracker": "assets/templates/excel/qijia-policy-tracker-template.xlsx",
-    "brand_html_reference": "assets/templates/html/qijia-brand-visual-system-0.3.html",
-    "brand_html_legacy_reference": "assets/templates/html/qijia-brand-system-0.2.html"
+    "brand_html_reference": "assets/templates/html/qijia-brand-visual-system-0.3.html"
   },
   "portable_for": ["Codex", "OpenAI Agent", "Claude Code", "Gemini CLI", "other coding agents"],
   "validation": {
