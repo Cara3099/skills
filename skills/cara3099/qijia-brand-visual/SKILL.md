@@ -15,7 +15,8 @@ description: 为广东企加税务师事务所制作、改版或批量生成统�
 
 1. 先读取本技能的 `references/brand-system.md` 和 `references/content-schema.md`。
 2. 根据目标格式读取 `references/format-workflows.md`；培训 PPT 另读 `references/training-ppt-style-guide.md`。
-3. 以统一内容源生成文件，完成渲染、分页、溢出、清晰度和来源检查后再交付。
+3. HTML 任务另读 `references/html-visual-guide.md`，并优先使用 `assets/templates/html/qijia-brand-visual-system-0.3.html`。
+4. 以统一内容源生成文件，完成渲染、分页、溢出、清晰度和来源检查后再交付。
 
 也可以直接调用：
 
@@ -33,7 +34,8 @@ description: 为广东企加税务师事务所制作、改版或批量生成统�
 2. 将内容整理为 `references/content-schema.md` 规定的 JSON。
 3. 根据交付格式读取 `references/format-workflows.md`。
 4. PPT 培训类任务必须优先使用 `assets/templates/ppt/qijia-formal-training-template.pptx`，并同时读取 `references/training-ppt-style-guide.md`。同目录保留中文文件名副本。
-5. 不确定智能体环境时，读取 `references/agent-compatibility.md`。
+5. HTML 视觉系统类任务必须使用 `assets/templates/html/qijia-brand-visual-system-0.3.html` 作为基准，并读取 `references/html-visual-guide.md`。
+6. 不确定智能体环境时，读取 `references/agent-compatibility.md`。
 
 ## 核心工作流
 
@@ -54,7 +56,7 @@ description: 为广东企加税务师事务所制作、改版或批量生成统�
 - Word：运行 `scripts/generate_docx.py`，产出正式可编辑文件。默认采用合同、制度和政策文件常用的单栏连续阅读流，支持较长正文与自动编号；除真实对照数据外不使用左右分栏或卡片拼贴。
 - Excel：运行 `scripts/generate_xlsx.mjs`，产出政策台账、行动清单与来源表。每张工作表顶部必须清楚显示企加 Logo 与“广东企加税务师事务所”。
 - PPT：运行 `scripts/generate_pptx.mjs`；正式培训优先套用完整 PPT 模版。
-- HTML：运行 `scripts/generate_html.py`，产出响应式、可打印的单文件网页。
+- HTML：政策简报等结构化内容运行 `scripts/generate_html.py`；品牌视觉系统、品牌手册和高质感专题页优先复制并改写 `assets/templates/html/qijia-brand-visual-system-0.3.html`，产出响应式、可打印的单文件网页。
 
 脚本接受：
 
@@ -76,6 +78,7 @@ description: 为广东企加税务师事务所制作、改版或批量生成统�
 - Excel：检查关键范围、公式、筛选、冻结窗格、打印区域和公式错误；图片预览器不显示嵌入图时，必须用 Excel 或 LibreOffice 再验证 Logo。
 - PPT：逐页渲染并做拼图检查，确认无越界、遮挡和过小文字。
 - HTML：检查桌面、移动端和打印样式；正文必须是真实文本，不用截图代替。
+- HTML 品牌系统：重点检查 Logo 是否完整可辨、品牌色是否准确、各板块正文是否达到易读字号，以及桌面端无横向溢出。
 - 四种文件的标题、日期、政策文号、数字与来源必须一致。
 
 ## 模版资产
@@ -85,7 +88,8 @@ description: 为广东企加税务师事务所制作、改版或批量生成统�
 - `assets/templates/ppt/qijia-formal-training-template.pptx`：此前确认的完整培训 PPT 模版。
 - `assets/templates/word/qijia-formal-brief-template.docx`：正式简报 Word 模版。
 - `assets/templates/excel/qijia-policy-tracker-template.xlsx`：政策追踪 Excel 模版。
-- `assets/templates/html/qijia-brand-system-0.2.html`：视觉系统 0.2 网页基准。
+- `assets/templates/html/qijia-brand-system-0.2.html`：视觉系统 0.2 网页基准，作为历史兼容版本保留。
+- `assets/templates/html/qijia-brand-visual-system-0.3.html`：当前定稿的品牌视觉系统 HTML 模板，采用编辑式品牌图谱布局、原有右侧深蓝品牌图、企加深蓝/正红/纸白体系和放大后的可读文字。
 
 ## 禁止事项
 
