@@ -1,11 +1,11 @@
 {
-  "name": "mattpocock-skills",
+  "name": "cara3099-skills",
   "version": "1.0.1",
   "private": true,
-  "description": "Matt Pocock's agent skills for real engineering",
+  "description": "Cara3099's curated agent skills and imported author collections",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mattpocock/skills"
+    "url": "https://github.com/Cara3099/skills"
   },
   "license": "MIT",
   "scripts": {
