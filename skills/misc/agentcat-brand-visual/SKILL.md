@@ -1,76 +1,82 @@
 ---
 name: agentcat-brand-visual
-description: Apply the AgentCat brand visual system consistently to HTML, miniapp UI, Word, PDF, Excel, PowerPoint, reports, and business documents. Use when creating, reviewing, or polishing branded artifacts, especially when copy, typography, page furniture, watermarking, or document readability matters.
+description: 将代理猫品牌视觉统一应用到 HTML、小程序界面、Word、PDF、Excel、PowerPoint、项目报告和业务文档中。适用于品牌化设计、文案审校、排版优化、页眉页脚、水印和交付前视觉检查。
 ---
 
-# AgentCat brand visual
+# 代理猫品牌视觉
 
-Use this skill for brand-consistent visual work across web pages, miniapp screens, Word/PDF documents, spreadsheets, presentations, and status reports.
+用于网页、小程序、Word/PDF、Excel、PowerPoint、阶段报告和业务文档的统一品牌设计与交付检查。
 
-## Non-negotiable brand rules
+## 品牌文字规则
 
-- Use the original Logo from `assets/代理猫图.png` or, inside this repository, `apps/miniapp/assets/代理猫图.png`. Never redraw, stretch, or approximate the Logo.
-- Use AgentCat orange `#FF5001` for primary actions, short rules, progress, and stamps. Use deep orange `#D94100` sparingly for hover or strong emphasis.
-- Use warm white `#FCFBF8` or white for the main background, pale peach `#FFF0E8` for restrained grouping, warm gray `#E8E2DC` for borders, and deep ink blue `#162033` for headings and body text.
-- Use the fixed brand slogan exactly: `代理记账认准代理猫`. Never replace the fixed `认准` wording with `认证` or another near-synonym.
-- Use product language precisely: `服务单` / `服务确认单`, `公司主体`, `税号`, `确认快照`, and `证据链`. Do not call the P0 service confirmation flow a contract.
-- Do not add customer-side `申请合同`, `申请开票`, or `下载/分享确认 PDF` entrances in P0 materials.
-- Do not invent company counts, years, satisfaction rates, phone numbers, prices, or other business facts.
+- 固定品牌口号只能写：`代理记账认准代理猫`。不得把“认准”写成“认证”，也不要自行替换成近义口号。
+- 可选副口号为：`让合规创造价值`。只有在需要第二层品牌表达时使用，不替代固定品牌口号。
+- `让每一份服务确认，都清楚可查。`是项目或页面的情境化主张，不是品牌口号；只能按内容需要使用，不能放入品牌口号、Logo 锁定或固定页脚位置。
+- 产品术语使用：`服务单` / `服务确认单`、`公司主体`、`税号`、`确认快照`、`证据链`。第一版服务确认流程不要称为合同。
+- P0 客户侧不得增加`申请合同`、`申请开票`、`下载/分享确认 PDF`等入口。
+- 不得虚构企业数量、服务年限、满意度、电话、价格或其他业务事实。
 
-## Choose the visual route
+## 品牌视觉硬规则
 
-Use the default combination: B structure plus A editorial detail.
+- 优先使用原始 Logo：skill 内的 `assets/代理猫图.png`，或项目中的 `apps/miniapp/assets/代理猫图.png`。不要重绘、拉伸或仿制 Logo。
+- 品牌主橙：`#FF5001`，用于主操作、短线、进度和印章；深橙 `#D94100` 只用于较强强调或 hover。
+- 主背景使用暖白 `#FCFBF8` 或白色；分组使用浅桃 `#FFF0E8`；边框使用暖灰 `#E8E2DC`；标题与正文使用深墨蓝 `#162033`。
+- 猫形虚影只能作为低对比度水印、页脚图形或背景轮廓，默认透明度 4%–10%，不要做成卡通角色。
+- 先用留白、字级、行距、对齐和分组建立层级，再使用边框、阴影和装饰；不要把每段内容都做成卡片。
 
-- **A · 温暖编辑感・证据流**: warm editorial typography, large restrained headlines, thin orange rules, paper/document details, and an evidence timeline. Use for reports, brand pages, and story-led content.
-- **B · 静谧单据工作室**: warm white, pale peach, precise document frames, stamps, folders, and calm shadows. Use for service confirmation flows, forms, Word documents, and formal business materials.
+## 两条允许的视觉路线
 
-Do not use later experimental routes or dashboard-like visual language unless the user explicitly asks for them.
+默认使用“B 的信息结构 + A 的细节质感”。
 
-## Typography and layout
+- **A｜温暖编辑感・证据流**：编辑式排版、大标题、细橙色规则线、纸张/单据细节和证据时间线。适合品牌官网、项目报告和故事型页面。
+- **B｜静谧单据工作室**：暖白、浅桃、服务确认单、档案夹、印章和柔和投影。适合服务确认流程、Word 文档、正式业务材料和表单。
 
-- Prefer `-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif` for UI/body text.
-- Use `"Noto Serif SC", "Songti SC", "STSong", serif` only for selected editorial titles.
-- Build hierarchy with type scale, line height, whitespace, alignment, and short rules before adding cards, shadows, or decoration.
-- For replaceable Chinese headlines, split by meaning into semantic lines. Desktop headline lines may use `white-space: nowrap`; mobile layouts must use `text-wrap: balance`, `line-break: strict`, and `overflow-wrap: break-word`.
-- Keep headline containers bounded and check at both 1440px desktop and 390px mobile widths. Never leave a lone character or punctuation mark on a line.
+不要混入用户已经否定的后续探索方向或后台仪表盘式视觉，除非用户明确要求。
 
-## Medium-specific rules
+## 字体与中文排版
 
-### HTML and miniapp UI
+- UI 与正文优先使用：`-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif`。
+- 编辑感标题可使用：`"Noto Serif SC", "Songti SC", "STSong", serif`。
+- 用字号、行高、留白和对齐建立层级，不靠大面积黑色或高饱和色块强调。
+- 可替换中文标题先按语义拆行。桌面端可用 `white-space: nowrap` 保持语义行，移动端使用 `text-wrap: balance`、`line-break: strict` 和 `overflow-wrap: break-word`。
+- 标题容器必须有明确最大宽度，并检查 1440px 桌面和 390px 移动宽度，避免孤字、孤立标点、截断和横向溢出。
 
-- Keep content containers around 1120–1200px on desktop, with a single primary CTA and generous whitespace.
-- Use documents, stamps, evidence timelines, and a low-contrast cat watermark as brand assets; do not turn the page into a backend dashboard.
-- Keep information-bearing timeline text in Grid/Flex columns or rows. Use absolute positioning only for decorative paper edges, texture, or cat shadows.
-- Keep the cat watermark monochrome and subtle, normally 4%–10% opacity, never a cartoon character.
-- Check 1440px and 390px layouts for overflow, clipping, button visibility, and Chinese wrapping.
+## 按媒介执行
 
-### Word and PDF
+### HTML 与小程序
 
-- Treat Word as a reading document, contract, memo, or report—not as an Excel-like dashboard.
-- Use black/deep-gray body text, comfortable line spacing, clear paragraph rhythm, and restrained deep-blue headings. Use orange only for short rules, kickers, or small emphasis.
-- Use the original Logo in the header or footer at its natural aspect ratio. Page numbers, document title, date, and the fixed slogan may appear in page furniture; keep any watermark very faint so it cannot compete with body text.
-- Use real Word heading styles and real numbering. Allow Word to reflow and paginate naturally; use explicit page breaks only for intentional section starts, signature pages, or appendices.
-- For contract-like documents, set keep-with-next for headings, keep-together for clause blocks, automatic clause numbering, automatic page numbers, repeating headers/footers, and fixed page breaks only where the document semantics require them.
-- Render every DOCX and inspect all page images before delivery. Check Chinese fonts, Logo proportions, margins, page breaks, footer consistency, and black-and-white readability.
+- 桌面内容容器约 1120–1200px，保留充分留白，只设置一个首要 CTA。
+- 使用单据、印章、证据时间线和低对比度猫影作为品牌资产，不要做成后台首页。
+- 时间线中的文字必须在 Grid/Flex 自己的栏位或行位中，绝对定位只用于纸张边角、纹理和猫影等装饰层。
+- 猫影保持单色、低对比度；检查 1440px 和 390px 下的换行、溢出、按钮可见性和信息遮挡。
+
+### Word 与 PDF
+
+- 把 Word 当作合同、报告、方案或文字型文件来设计，不要做成 Excel 式看板。
+- 正文以黑色/深灰为主，使用舒适行距和清晰段落；标题用深墨蓝，橙色只用于短线、眉题或少量重点。
+- 页眉/页脚可以放原始 Logo、页码、日期和固定品牌口号；副口号是否出现要按文件用途决定。水印必须足够浅，不得影响正文。
+- 使用真实 Word 标题样式和真实自动编号。让 Word 根据内容自然重排分页，只在章节起始、签署页或附件等语义需要处使用固定分页。
+- 合同类文件增加“与下段同页”“段中不分页”、自动条款编号、自动页码、重复页眉页脚和签署页固定分页。
+- 交付前渲染每一页 DOCX 并检查中文字体、Logo 比例、边距、分页、页脚一致性和黑白打印可读性。
 
 ### Excel
 
-- Keep data areas filterable, copyable, sortable, and white/warm-white. Use pale peach or light orange for headers; do not use heavy black fills.
-- Use deep ink-blue header text, restrained orange for titles/totals/highlights, and low-saturation semantic status colors with text labels.
-- Set column widths, row heights, wrapping, freeze panes, print area, and page setup deliberately. Inspect every sheet and print preview.
+- 数据区保持可筛选、可复制、可排序，使用白色/暖白底；表头使用浅桃或淡橙，不使用厚重黑色色块。
+- 表头文字使用深墨蓝；橙色只用于标题、总计和重点状态。状态色使用低饱和色并同时显示文字。
+- 明确设置列宽、行高、换行、冻结窗格、打印区域和分页，逐表检查打印预览。
 
 ### PowerPoint
 
-- Use one clear composition per slide, warm white space, the original Logo, and restrained orange rules.
-- Avoid dense dashboard grids, tiny text, and title wrapping. Inspect every rendered slide for clipping, overlap, and unreadable Chinese.
+- 每页使用一个清晰构图，保持暖白留白、原始 Logo 和细橙色规则线。
+- 避免密集看板、过小文字和标题换行；渲染所有页面检查溢出、重叠和中文可读性。
 
-## Required review before delivery
+## 交付前检查
 
-1. Check that every Logo is the original asset and has not been stretched.
-2. Run `python scripts/validate_brand_text.py <paths...>` from this skill directory or the repository root to catch fixed-copy violations.
-3. Search generated and source files for the fixed slogan with `认证` substituted for `认准`.
-4. Verify important display copy: `代理记账认准代理猫`; `让每一份服务确认，都清楚可查。`; `服务单`; `确认快照`; `证据链`.
-5. Verify P0 boundaries: no customer-side contract, invoice, or confirmation-PDF download/share entrance.
-6. Render and inspect Word, Excel, PowerPoint, and HTML outputs using the relevant artifact workflow before publishing.
+1. 确认所有 Logo 使用原图且未变形。
+2. 运行 `python scripts/validate_brand_text.py <路径...>`，拦截固定口号错误。
+3. 检查固定口号是否为`代理记账认准代理猫`，副口号是否按需使用`让合规创造价值`。
+4. 确认`让每一份服务确认，都清楚可查。`没有被误放在品牌口号位、Logo 锁定或固定页脚中。
+5. 检查`服务单`、`确认快照`、`证据链`等产品术语，以及客户侧没有合同、开票和确认 PDF 下载/分享入口。
+6. 按媒介渲染并检查 Word、Excel、PowerPoint 和 HTML，再发布最终文件。
 
-The detailed token map and evidence timeline rules are in [references/brand-system.md](references/brand-system.md).
+详细颜色、字体、证据时间线和内容边界见 [references/brand-system.md](references/brand-system.md)。

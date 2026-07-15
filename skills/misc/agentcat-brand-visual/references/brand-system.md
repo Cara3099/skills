@@ -1,48 +1,54 @@
-# AgentCat brand system reference
+# 代理猫品牌视觉系统参考
 
-## Tokens
+## 核心颜色令牌
 
-| Role | Token |
+| 用途 | 令牌 |
 |---|---|
-| AgentCat orange | `#FF5001` |
-| Deep orange | `#D94100` |
-| Ink blue | `#162033` |
-| Secondary ink | `#25324A` |
-| Warm white | `#FCFBF8` |
-| Pale peach | `#FFF0E8` |
-| Near peach | `#FFF8F4` |
-| Warm border | `#E8E2DC` |
-| Muted gray | `#8A8F98` |
-| Success | `#2EAD71` |
-| Warning | `#E8A047` |
-| Error | `#C9514A` |
+| 品牌主橙 | `#FF5001` |
+| 深橙 | `#D94100` |
+| 深墨蓝 | `#162033` |
+| 辅助正文 | `#25324A` |
+| 暖白 | `#FCFBF8` |
+| 浅桃 | `#FFF0E8` |
+| 极浅桃 | `#FFF8F4` |
+| 暖灰边框 | `#E8E2DC` |
+| 次级灰 | `#8A8F98` |
+| 成功 | `#2EAD71` |
+| 警告 | `#E8A047` |
+| 异常 | `#C9514A` |
 
-Keep body text at WCAG AA contrast where possible. Use orange text on white or ink text on pale peach for small text; reserve orange-on-white for large buttons or large display type.
+正文与背景尽量满足 WCAG AA 对比度。小字号优先使用深墨蓝或白底上的深橙；橙色配白色主要用于大号按钮或大字号展示。
 
-## Type and rhythm
+## 字体与节奏
 
-- UI: `-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif`
-- Editorial title: `"Noto Serif SC", "Songti SC", "STSong", serif`
-- HTML headline: 40–64px, line-height 1.15–1.25
-- HTML body: 14–16px, line-height 1.6–1.8
-- Word title / section / subsection: approximately 22pt / 16pt / 13pt
-- Excel title / header: approximately 16–20pt / 10–11pt
+- UI/正文：`-apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif`
+- 编辑感标题：`"Noto Serif SC", "Songti SC", "STSong", serif`
+- 网页主标题：40–64px，行高 1.15–1.25
+- 网页正文：14–16px，行高 1.6–1.8
+- Word 标题/章节/小节：约 22pt / 16pt / 13pt
+- Excel 标题/表头：约 16–20pt / 10–11pt
 
-Use spacing units from `4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 96`. Favor whitespace and alignment over decoration.
+间距优先使用 `4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 96`。视觉层级先靠留白和对齐建立。
 
-## Evidence timeline
+## 品牌口号与项目主张
 
-Use the A editorial route for `EvidenceTimeline`:
+- 固定品牌口号：`代理记账认准代理猫`
+- 可选副口号：`让合规创造价值`
+- 项目/页面情境化主张：`让每一份服务确认，都清楚可查。`
 
-- Desktop: date/version index on the left, a 1px orange rule in the middle, and event/evidence text in its own right column.
-- Each node shows time, event, evidence object, and a written status; do not rely on color alone.
-- Use 6–8px orange dots or short marks. Avoid thick connectors, large badges, neon effects, and text placed over documents.
-- Keep historic confirmations immutable. New changes create a new event or supplementary confirmation; the timeline must not imply that a snapshot was overwritten.
+三者的使用层级不同：固定品牌口号可用于 Logo 锁定、页眉页脚和品牌落款；副口号用于品牌介绍、官网首屏或品牌材料的第二层表达；情境化主张用于具体项目、服务流程或阶段报告，不应被当作固定品牌口号。
 
-In Excel, use columns such as date, event, evidence object, status, and version. In Word/PDF, use a date index with event paragraphs and keep each heading with its evidence object when paginating.
+## 证据时间线
 
-## Content boundaries
+`EvidenceTimeline` 默认使用 A「温暖编辑感・证据流」：
 
-The P0 product is a customer service-order confirmation system. Use `服务单` or `服务确认单`, not `合同`, for the main flow. Contracts, payment, invoicing, and accounting-book capabilities may be described as boundaries or future/internal extensions, but do not become customer-side P0 entrances.
+- 桌面端左侧放日期/版本索引，中间使用 1px 橙色规则线，右侧放独立的事件与证据文字。
+- 每个节点至少展示时间、事件、证据对象和文字状态，不依赖颜色单独传达含义。
+- 使用 6–8px 橙色节点或短标记，避免粗连接线、大徽章、霓虹效果和文字覆盖单据。
+- 历史确认不可覆盖；后续变化新增节点或补充确认，时间线不能暗示旧快照被修改。
 
-The brand slogan is always `代理记账认准代理猫`.
+Excel 可使用“日期 / 事件 / 证据对象 / 状态 / 版本”列；Word/PDF 使用日期索引加事件段落，并在分页时保持事件标题与证据对象同页。
+
+## 内容边界
+
+P0 产品是客户服务单确认系统。主流程使用`服务单`或`服务确认单`，不要使用`合同`作为主命名。合同、收款、开票和电子账簿可以作为边界说明或未来/内部扩展，但不能变成客户侧 P0 入口。

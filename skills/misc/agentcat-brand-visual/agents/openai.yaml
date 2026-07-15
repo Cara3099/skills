@@ -1,4 +1,4 @@
 interface:
-  display_name: "AgentCat Brand Visual"
-  short_description: "Apply AgentCat visual rules to branded documents and UI"
-  default_prompt: "Use the AgentCat brand visual system for this HTML, Word, Excel, PowerPoint, PDF, or miniapp task. Check fixed copy and render the result before delivery."
+  display_name: "代理猫品牌视觉"
+  short_description: "统一代理猫品牌视觉与中文文案"
+  default_prompt: "请使用代理猫品牌视觉处理这个 HTML、Word、Excel、PowerPoint、PDF 或小程序任务，并在交付前检查固定口号、中文排版和渲染效果。"
