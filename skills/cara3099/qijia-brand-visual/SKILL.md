@@ -7,6 +7,22 @@ description: 为广东企加税务师事务所制作、改版或批量生成统�
 
 > 技能制作人：Cara3099
 
+## 启动与调用
+
+当任务涉及广东企加税务师事务所的品牌文件，或用户提到“企加品牌视觉”“企加税所”“企加 Logo”“企加 PPT 模版”“统一生成 Word、Excel、PPT、HTML”时，启动本技能。
+
+启动后按以下顺序执行：
+
+1. 先读取本技能的 `references/brand-system.md` 和 `references/content-schema.md`。
+2. 根据目标格式读取 `references/format-workflows.md`；培训 PPT 另读 `references/training-ppt-style-guide.md`。
+3. 以统一内容源生成文件，完成渲染、分页、溢出、清晰度和来源检查后再交付。
+
+也可以直接调用：
+
+```text
+使用企加品牌视觉，把这份内容生成正式的 Word、Excel、PPT 或 HTML 文件。
+```
+
 ## 目标
 
 把同一份结构化内容稳定渲染为 Word、Excel、PPT 和 HTML，并保持企加视觉系统 0.2 的品牌一致性、正式感、可编辑性和打印清晰度。
