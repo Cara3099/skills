@@ -1,7 +1,7 @@
 {
   "name": "qijia-brand-visual",
   "display_name": "企加品牌视觉",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "brand_owner": "广东企加税务师事务所",
   "author": "Cara3099",
   "formats": ["docx", "xlsx", "pptx", "html"],
@@ -18,7 +18,8 @@
     "training_ppt": "assets/templates/ppt/qijia-formal-training-template.pptx",
     "formal_word_brief": "assets/templates/word/qijia-formal-brief-template.docx",
     "policy_excel_tracker": "assets/templates/excel/qijia-policy-tracker-template.xlsx",
-    "brand_html_reference": "assets/templates/html/qijia-brand-system-0.2.html"
+    "brand_html_reference": "assets/templates/html/qijia-brand-visual-system-0.3.html",
+    "brand_html_legacy_reference": "assets/templates/html/qijia-brand-system-0.2.html"
   },
   "portable_for": ["Codex", "OpenAI Agent", "Claude Code", "Gemini CLI", "other coding agents"],
   "validation": {
