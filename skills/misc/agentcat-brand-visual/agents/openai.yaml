@@ -1,0 +1,4 @@
+interface:
+  display_name: "AgentCat Brand Visual"
+  short_description: "Apply AgentCat visual rules to branded documents and UI"
+  default_prompt: "Use the AgentCat brand visual system for this HTML, Word, Excel, PowerPoint, PDF, or miniapp task. Check fixed copy and render the result before delivery."
