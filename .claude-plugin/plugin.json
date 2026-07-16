@@ -1,26 +1,7 @@
 {
   "name": "cara3099-skills",
   "skills": [
-    "./skills/matt-pocock/engineering/ask-matt",
-    "./skills/matt-pocock/engineering/diagnosing-bugs",
-    "./skills/matt-pocock/engineering/grill-with-docs",
-    "./skills/matt-pocock/engineering/triage",
-    "./skills/matt-pocock/engineering/improve-codebase-architecture",
-    "./skills/matt-pocock/engineering/setup-matt-pocock-skills",
-    "./skills/matt-pocock/engineering/tdd",
-    "./skills/matt-pocock/engineering/to-issues",
-    "./skills/matt-pocock/engineering/to-prd",
-    "./skills/matt-pocock/engineering/implement",
-    "./skills/matt-pocock/engineering/prototype",
-    "./skills/matt-pocock/engineering/research",
-    "./skills/matt-pocock/engineering/domain-modeling",
-    "./skills/matt-pocock/engineering/codebase-design",
-    "./skills/matt-pocock/engineering/code-review",
-    "./skills/matt-pocock/productivity/grill-me",
-    "./skills/matt-pocock/productivity/grilling",
-    "./skills/matt-pocock/productivity/handoff",
-    "./skills/matt-pocock/productivity/teach",
-    "./skills/matt-pocock/productivity/writing-great-skills",
-    "./skills/cara3099/agentcat-brand-visual"
+    "./skills/cara3099/agentcat-brand-visual",
+    "./skills/cara3099/qijia-brand-visual"
   ]
 }
