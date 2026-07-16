@@ -1,0 +1,24 @@
+{
+  "name": "agentcat-brand-visual",
+  "display_name": "代理猫品牌视觉",
+  "version": "0.3.0",
+  "author": "Cara3099",
+  "formats": ["docx", "xlsx", "pptx", "html"],
+  "generators": {
+    "docx": "scripts/generate_docx.py",
+    "xlsx": "scripts/generate_xlsx.mjs",
+    "pptx": "scripts/generate_pptx.mjs",
+    "html": "scripts/generate_html.py"
+  },
+  "templates": {
+    "ppt": "assets/templates/ppt/agentcat-brand-visual-skill-template.pptx",
+    "ppt_zh": "assets/templates/ppt/代理猫品牌视觉Skill完整模版.pptx",
+    "ppt_preview": "assets/templates/ppt/agentcat-brand-visual-skill-preview.png",
+    "word": "assets/templates/word/agentcat-brand-visual-skill-template.docx",
+    "excel": "assets/templates/excel/agentcat-brand-visual-skill-template.xlsx",
+    "html": "assets/templates/html/agentcat-brand-visual-skill-template.html"
+  },
+  "brand_assets": ["assets/brand/agentcat-logo.png"],
+  "examples": "assets/examples/",
+  "validation": "scripts/validate_package.py"
+}

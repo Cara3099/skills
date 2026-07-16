@@ -1,4 +1,4 @@
 interface:
   display_name: "代理猫品牌视觉"
-  short_description: "统一代理猫品牌视觉与中文文案"
-  default_prompt: "请使用代理猫品牌视觉处理这个 HTML、Word、Excel、PowerPoint、PDF 或小程序任务，并在交付前检查固定口号、中文排版和渲染效果。"
+  short_description: "用固定模板统一代理猫品牌文件"
+  default_prompt: "请使用代理猫品牌视觉 Skill 自带的模板和脚本处理任务；PPT 优先套用完整模板，Word 使用单栏连续文字排版，不使用卡片或模型生成图片，并在交付前完成渲染检查。"
